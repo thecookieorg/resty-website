@@ -1,0 +1,40 @@
+<header role="banner" id="fh5co-header">
+			<div class="container">
+				<!-- <div class="row"> -->
+			    <nav class="navbar navbar-default">
+		        <div class="navbar-header">
+		        	<!-- Mobile Toggle Menu Button -->
+					<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		         <%= link_to 'Resty', root_path, class: "navbar-brand" %>
+		         	
+		         
+		        </div>
+		        <div id="navbar" class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav navbar-right">
+		            <li class="active"><a href="#"><span>Home</span></a></li>
+		            <li>
+		            	<%= link_to pages_features_path do %>
+		            		<span>Features</span>
+		            	<% end %>
+		            </li>
+		            <li>
+		            	<%= link_to pages_demo_path do %>
+		            		<span>Demo</span>
+		            	<% end %>
+		            </li>
+		            <li>
+		            	<%= link_to '#' do %>
+		            		<span>Pricing</span>
+		            	<% end %>
+		            </li>
+		            <li>
+		            	<%= link_to pages_contact_path do %>
+		            		<span>Contact</span>
+		            	<% end %>
+		            </li>
+		          </ul>
+		        </div>
+			    </nav>
+			  <!-- </div> -->
+		  </div>
+</header>
